@@ -1,0 +1,111 @@
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.card {
+  width: 300px;
+  height: 580px;
+}
+
+.casflow-card {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 15px; /* Reduced padding */
+  border-radius: 5px;
+  flex: 0.8; /* Make this card take up more space */
+}
+
+.blue-heading {
+  color: #025bd4; /* Blue color for heading */
+}
+
+.sub-title {
+  color: #666; /* Subtitle color */
+  margin-bottom: 0.5rem;
+}
+
+.casflow-item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.flow-name {
+  font-weight: bold;
+}
+
+.flow-description {
+  color: #888;
+}
+
+.caseflow-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.caseflow-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.blue-heading {
+  color: blue;
+}
+
+.subcard {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.subcard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subcard-header h4 {
+  margin: 0; /* Remove margin from h4 */
+  font-size: 14px; /* Smaller font size for h4 */
+}
+
+.close-icon {
+  cursor: pointer;
+  color: red;
+  font-size: 14px; /* Smaller icon size */
+}
+
+.icon-and-title {
+  display: flex;
+  align-items: center;
+}
+
+.chartflow {
+  /* top: 10px; */
+  /* left: 200px; */
+  background: linear-gradient(65.3deg, #0575e6 6.93%, #021b79 89.92%);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.chartflow:hover {
+  background-color: #021b79;
+}

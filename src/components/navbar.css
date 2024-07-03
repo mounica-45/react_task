@@ -1,0 +1,86 @@
+.navbar {
+  background-color: #efefef;
+  padding: 1rem;
+  position: sticky;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  color: black;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-favicon {
+  width: 18px;
+  height: 18px;
+}
+
+.bold-item {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.navbar-item-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item-center {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item-right {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.navbar-item-right:last-child {
+  margin-left: 0;
+}
+
+.navbar-item-home button,
+.navbar-item-center button,
+.navbar-item-right button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-item-center button a,
+.navbar-item-home button a,
+.navbar-item-right button a {
+  color: black;
+}
+
+.navbar-item-center button:focus,
+.navbar-item-home button:focus,
+.navbar-item-right button:focus {
+  outline: none;
+}
+
+.navbar-item-center button.active,
+.navbar-item-home button.active,
+.navbar-item-right button.active {
+  background: linear-gradient(65.3deg, #0575e6 6.93%, #021b79 89.92%);
+  color: white;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+.navbar-item-center button.active a,
+.navbar-item-home button.active a,
+.navbar-item-right button.active a {
+  color: white;
+}

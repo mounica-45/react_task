@@ -1,0 +1,39 @@
+/* Chats.css */
+
+.chats-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 20px;
+
+  font-family: "Inter", sans-serif;
+}
+
+.chats-container h5 {
+  margin-bottom: 20px;
+}
+
+.chats-container p {
+  margin-bottom: 20px;
+}
+
+.chat-list {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-item {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: left;
+}
+
+.chat-item h6 {
+  margin-bottom: 5px;
+}

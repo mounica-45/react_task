@@ -1,0 +1,162 @@
+/* .layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.card {
+  width: 300px;
+  height: auto;
+} */
+
+.caseflow-card {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 15px; /* Reduced padding */
+  border-radius: 5px;
+  flex: 0.5; /* Make this card take up more space */
+  position: relative;
+  padding-left: 30px;
+}
+
+.chartflow-card {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 15px; /* Reduced padding */
+  border-radius: 5px;
+  flex: 0.3;
+  height: 600px;
+}
+
+.blue-heading {
+  color: #025bd4; /* Blue color for heading */
+}
+
+.sub-title {
+  color: #666; /* Subtitle color */
+  margin-bottom: 0.5rem;
+}
+
+.caseflow-item {
+  margin-bottom: 1rem;
+  margin-left: 25px;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.flow-name {
+  font-weight: bold;
+}
+
+.flow-description {
+  color: #888;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.chartflow-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.stages-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  padding-left: 20px;
+}
+
+.stage {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.stage-dot {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.stage-dot.filled {
+  background-color: #0575e6;
+}
+
+.stage-text {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.stage-line {
+  position: absolute;
+  left: 28px;
+  top: 14px;
+  width: 2px;
+  height: 82%;
+  /* height: 100%; */
+  background-color: #0575e6;
+  z-index: 0;
+}
+
+.caseflow-container {
+  position: relative;
+}
+
+.caseflow-container .text-left {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.caseflow-container .text-left .stage-dot {
+  margin-right: 10px;
+}
+
+.caseflow-container .stage-line {
+  position: absolute;
+  left: 8px;
+  top: 80px;
+  width: 2px;
+  height: calc(100% - 80px); /* Adjust height to connect all dots */
+  background-color: #0575e6;
+  z-index: 0;
+}
+
+.chartflow-button {
+  /* top: 10px; */
+  left: 200px;
+  background: linear-gradient(65.3deg, #0575e6 6.93%, #021b79 89.92%);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.chartflow-button:hover {
+  background-color: #021b79;
+}

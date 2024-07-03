@@ -1,0 +1,44 @@
+.settings-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.settings-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.settings-section {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.settings-section h2 {
+  margin-top: 0;
+}
+
+.settings-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.settings-item label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.settings-item input[type="text"],
+.settings-item input[type="email"],
+.settings-item select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.settings-item input[type="checkbox"] {
+  margin-top: 0.5rem;
+}

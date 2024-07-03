@@ -1,0 +1,85 @@
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.text-left {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.subcards {
+  list-style: none;
+  padding: 0;
+}
+
+.subcard {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.item-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-text {
+  flex: 1;
+}
+
+.item-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.status.Completed {
+  background-color: #66bb6a;
+  color: #ffffff;
+}
+
+.status.Inprogress {
+  background-color: #ffa726;
+  color: #ffffff;
+}
+
+.status.Failed {
+  background-color: #ef5350;
+  color: #ffffff;
+}
+
+.days-ago {
+  color: #666;
+  margin-right: 0.5rem;
+}
+
+.status-icon {
+  margin-right: 0.5rem; /* Adjust spacing between icon and text */
+}
+
+.completed-icon {
+  color: black;
+}
+
+.inprogress-icon {
+  color: black;
+}
+
+.failed-icon {
+  color: black;
+}

@@ -1,0 +1,221 @@
+.caseflo-card {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 0.8;
+}
+
+.caseflo-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.buttons-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.buttons-container button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  /* background-color: #007bff; */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.buttons-container {
+  margin-top: 10px;
+}
+
+.buttons-container button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  /* color: white; */
+  border: none;
+  cursor: pointer;
+}
+
+.add-button {
+  background: linear-gradient(65.3deg, #0575e6 6.93%, #021b79 89.92%);
+}
+
+.remove-button {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
+.buttons-container button:hover {
+  opacity: 0.8;
+}
+
+.buttons-container button:last-child {
+  margin-right: 0;
+  border: 1px solid black;
+  color: black;
+}
+
+/* .questions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} */
+
+/* Navbar styles */
+/* Navbar styles */
+.card-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  /* padding: 10px; */
+  margin-bottom: 20px;
+  border-radius: 5px 5px 0 0; /* Rounded corners for the top of the card */
+}
+
+.card-navbar .navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.card-navbar .nav-item {
+  flex: 1;
+  text-align: center;
+}
+
+.card-navbar .nav-item a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card-navbar .nav-item a:hover {
+  color: #007bff;
+  background-color: #e0e0e0;
+}
+
+/* Other styles for caseflow-card and its components */
+.caseflow-card {
+  background-color: #fff;
+  /* padding: 20px; */
+  border: 1px solid #ddd;
+  border-radius: 0 0 5px 5px; /* Rounded corners for the bottom of the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.buttons-container {
+  margin-bottom: 20px;
+}
+
+.add-button,
+.remove-button {
+  /* background-color: #007bff; */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.add-button:hover,
+.remove-button:hover {
+  background-color: #0056b3;
+}
+
+.questions-container {
+  margin-top: 20px;
+}
+
+.big-question {
+  margin-bottom: 20px;
+}
+
+.big-question h4 {
+  margin-bottom: 10px;
+}
+
+.big-question p {
+  line-height: 1.6;
+}
+.card-navbar .nav-item.questions a {
+  background: linear-gradient(65.3deg, #0575e6 6.93%, #021b79 89.92%);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.card-navbar .nav-item.questions a:hover {
+  opacity: 0.8;
+}
+.questions-container button:hover {
+  opacity: 0.8;
+}
+
+.card-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button.active {
+  background: linear-gradient(65.3deg, #0575e6 6.93%, #021b79 89.92%);
+  color: white;
+  border-radius: 20px;
+}
+
+.nav-button:hover {
+  color: #007bff;
+  background-color: #e0e0e0;
+}

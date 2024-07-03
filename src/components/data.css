@@ -1,0 +1,71 @@
+.back-to-home-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px; /* Padding around the container */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.back-to-home-container .back-icon {
+  margin-right: 10px; /* Adjust margin between icon and button */
+}
+
+.back-to-home {
+  background-color: transparent; /* Transparent background for the button */
+  color: #007bff; /* Blue text color */
+  border: none; /* Remove button border */
+  cursor: pointer;
+}
+
+.back-to-home:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.back-to-home-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.back-to-home {
+  background: linear-gradient(65.3deg, #0575e6 6.93%, #021b79 89.92%);
+  color: #fff; /* White text */
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  cursor: pointer;
+  margin-left: 20px; /* Adjust spacing between icon and text */
+}
+
+.back-to-home .back-icon {
+  color: #fff; /* White color for icon */
+  font-size: 16px;
+  background-color: #e0ffff;
+}
+
+h4,
+h5 {
+  margin-top: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc; /* Light gray line */
+  margin: 20px 0;
+}
+
+.pdf-icon {
+  margin-right: 10px; /* Adjust as needed */
+  color: #cd5c5c; /* Light orange color */
+}
+
+.upload-heading {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.upload-count {
+  background-color: #efefef; /* Light gray background */
+  margin-left: 10px;
+}

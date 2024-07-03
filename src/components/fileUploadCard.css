@@ -1,0 +1,38 @@
+/* fileUploadCard.css */
+.file-upload-card {
+  background-color: #efefef;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.upload-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.drag-and-drop {
+  /* border: 2px dashed #ccc; */
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.file-upload-link {
+  color: #025bd4;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.file-upload-link input[type="file"] {
+  display: none;
+}
+
+button {
+  margin-top: 0.5rem;
+}
+
+p {
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,39 @@
+/* Connections.css */
+
+.connections-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 20px;
+  /* background-color: #f0f0f0;  */
+  font-family: "Inter", sans-serif;
+}
+
+.connections-container h4 {
+  margin-bottom: 20px;
+}
+
+.connections-container p {
+  margin-bottom: 20px;
+}
+
+.connection-list {
+  display: flex;
+  gap: 10px;
+}
+
+.connection-item {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: left;
+}
+
+.connection-item h5 {
+  margin-bottom: 5px;
+}

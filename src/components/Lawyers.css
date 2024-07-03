@@ -1,0 +1,39 @@
+/* Lawyers.css */
+
+.lawyers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  text-align: center;
+  padding: 20px;
+  /* background-color: #f0f0f0;  */
+  font-family: "Inter", sans-serif;
+}
+
+.lawyers-container h4 {
+  margin-bottom: 20px;
+}
+
+.lawyers-container p {
+  margin-bottom: 20px;
+}
+
+.lawyer-list {
+  display: flex;
+  gap: 10px;
+}
+
+.lawyer-item {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: left;
+}
+
+.lawyer-item h5 {
+  margin-bottom: 5px;
+}
