@@ -1,40 +1,8 @@
-// import "./App.css";
-// import Navbar from "../src/components/Navbar";
-// import Layout from "./components/Layout";
-// import Content from "./components/Content";
-// import Design from "./components/Design";
-// import { BrowserRouter, Router, Route } from "react-router-dom";
-
-// function App() {
-//   return (
-//     <>
-//       <Navbar />
-//       <BrowserRouter>
-//         <Router>
-//           {/* <div className="app"> */}
-//           {/* <Layout /> */}
-//           <Route exact path="/" element={<Layout />} />
-//           {/* </div> */}
-//           {/* <div className="Contact">
-//         <Content />
-//       </div>
-//       <div className="About">
-//         <Design />
-//       </div> */}
-//         </Router>
-//       </BrowserRouter>
-//     </>
-//   );
-// }
-
-// export default App;
-
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Layout from "./components/Layout";
 import Content from "./components/Content";
 import Design from "./components/Design";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NewsFeed from "./components/NewsFeed";
 import Lawyers from "./components/Lawyers";
 import Connections from "./components/Connections";
@@ -45,6 +13,7 @@ import QContact from "./components/QContact";
 import Settings from "./components/Settings";
 import Admin from "./components/Admin";
 import Notification from "./components/Notification";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
